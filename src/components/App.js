@@ -13,7 +13,8 @@ function App() {
       <About 
       image={blogData.image} 
       about={blogData.about}/>
-      <ArticleList posts={blogData.posts}/>
+      <ArticleList posts={blogData.posts}
+      minutes={blogData.minutes}/>
     </div>
     
   );
